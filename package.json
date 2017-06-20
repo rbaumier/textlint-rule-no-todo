@@ -1,19 +1,16 @@
 {
-  "name": "textlint-rule-no-todo",
-  "description": "textlint rule: warn TODO text.",
+  "name": "textlint-rule-structure",
+  "description": "ensure file has correct structure",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/textlint-rule-no-todo.git"
+    "url": "https://github.com/rbaumier/textlint-rule-structure.git"
   },
-  "author": "azu",
-  "email": "azuciao@gmail.com",
-  "homepage": "https://github.com/azu/textlint-rule-no-todo",
+  "author": "rbaumier",
+  "email": "baumier.romain@gmail.com",
+  "homepage": "https://github.com/rbaumier/textlint-rule-structure",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/azu/textlint-rule-no-todo/issues"
-  },
-  "version": "2.0.0",
-  "main": "lib/no-todo.js",
+  "version": "1.0.1",
+  "main": "lib/structure.js",
   "files": [
     "lib",
     "src"
@@ -29,7 +26,7 @@
   },
   "keywords": [
     "textlint",
-    "todo",
+    "structure",
     "lint"
   ],
   "devDependencies": {
@@ -39,6 +36,7 @@
     "textlint-scripts": "^1.2.2"
   },
   "dependencies": {
+    "select-section": "^0.4.0",
     "textlint-rule-helper": "^1.1.3"
   },
   "peerDependencies": {
